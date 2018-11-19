@@ -37,8 +37,8 @@ void loop(){
   
   char customKey = customKeypad.getKey();
   lcd.clear();
+  lcd.setCursor(0, 1);
  
-   
   if (customKey=='1'){ 
     Serial.println(customKey);
       lcd.print(customKey);
